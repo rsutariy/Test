@@ -1,147 +1,142 @@
-{
-    "previous": null,
-    "results": [
-        {
-            "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "1"
-        },
-        {
-            "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "1"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "1"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        },
-        {
-            "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
-            "description": "Prize 1",
-            "quantity": "5"
-        }
-    ],
-    "next": "https://raw.githubusercontent.com/rsutariy/Test/master/data/le1.json/?limit=28&offset=28"
-    
-}
+[
+    {
+        "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "1"
+    },
+    {
+        "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "1"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "1"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    },
+    {
+        "image_url": "https://github.com/rsutariy/Test/blob/master/public/images/le1.jpg",
+        "description": "Prize 1",
+        "quantity": "5"
+    }
+]
