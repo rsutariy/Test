@@ -46,7 +46,21 @@
        "name": "Mythic",
        "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/mythic.jpg",
        "is_lock": true,
-       "type_details": ""
+       "type_details": "Complete the 3 Legendary branches to unlock"
+    },
+     {
+       "type": "mythic",
+       "name": "Mythic",
+       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/mythic.jpg",
+       "is_lock": true,
+       "type_details": "Complete the 3 Legendary branches to unlock"
+    },
+     {
+       "type": "mythic",
+       "name": "Mythic",
+       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/mythic.jpg",
+       "is_lock": true,
+       "type_details": "Complete the 6 Legendary branches to unlock"
     },
     {
        "type": "discount",
