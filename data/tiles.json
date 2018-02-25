@@ -2,35 +2,35 @@
     {
        "type": "legendary",
        "name": "Legendary 1",
-       "image_url": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/public/images/le1.jpg",
+       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le1.jpg",
        "is_lock": false,
-       "type_details": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/data/le1.json"
+       "type_details": "https://raw.githubusercontent.com/rsutariy/Test/master/data/le1.json"
     },
     {
        "type": "legendary",
-       "name": ":Legendary 2",
-       "image_url": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/public/images/le2.jpg",
+       "name": "Legendary 2",
+       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2.jpg",
        "is_lock": false,
-       "type_details": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/data/le2.json"
+       "type_details": "https://raw.githubusercontent.com/rsutariy/Test/master/data/le2.json"
     },
     {
        "type": "legendary",
        "name": "Legendary 3",
-       "image_url": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/public/images/le3.png",
+       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le3.png",
        "is_lock": false,
-       "type_details": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/data/le3.json"
+       "type_details": "https://raw.githubusercontent.com/rsutariy/Test/master/data/le3.json"
     },
     {
        "type": "mythic",
        "name": "Mythic",
-       "image_url": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/public/images/mythic.jpg",
+       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/mythic.jpg",
        "is_lock": true,
        "type_details": ""
     },
     {
        "type": "discount",
        "name": "Discount",
-       "image_url": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/public/images/discount.png",
+       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/discount.png",
        "is_lock": false,
        "type_details": "50%"
     }

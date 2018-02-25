@@ -1,3 +1,9 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -22,7 +28,41 @@
   font-size: large;
 }
 
+.btn {
+  margin: 1%;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin: 1%;
+}
+
+.card {
+  display: inline-block;
+  width: 28%;
+  min-height: 80vh;
+  margin: 1%;
+}
+
+.notify-badge {
+  position: absolute;
+  right: -10px;
+  top: 10px;
+  background: red;
+  text-align: center;
+  border-radius: 50px 50px 50px 50px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 3vh;
+}
+
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
