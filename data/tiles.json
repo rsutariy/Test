@@ -1,35 +1,35 @@
 [
     {
        "type": "legendary",
-       "name": "legendary 1",
+       "name": "Legendary 1",
        "image_url": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/public/images/le1.jpg",
        "is_lock": false,
-       "type_details": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/data/prizes.json"
+       "type_details": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/data/le1.json"
     },
     {
        "type": "legendary",
-       "name": "legendary 2",
+       "name": ":Legendary 2",
        "image_url": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/public/images/le2.jpg",
        "is_lock": false,
-       "type_details": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/data/prizes.json"
+       "type_details": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/data/le2.json"
     },
     {
        "type": "legendary",
-       "name": "legendary 3",
+       "name": "Legendary 3",
        "image_url": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/public/images/le3.png",
        "is_lock": false,
-       "type_details": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/data/prizes.json"
+       "type_details": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/data/le3.json"
     },
     {
        "type": "mythic",
-       "name": "mythic",
+       "name": "Mythic",
        "image_url": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/public/images/mythic.jpg",
        "is_lock": true,
        "type_details": ""
     },
     {
        "type": "discount",
-       "name": "discount",
+       "name": "Discount",
        "image_url": "https://github.com/rsutariy/Poket-Games-Web-Test/blob/master/public/images/discount.png",
        "is_lock": false,
        "type_details": "50%"
