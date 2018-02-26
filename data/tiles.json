@@ -20,27 +20,7 @@
        "is_lock": false,
        "type_details": "le3.json"
     },
-    {
-       "type": "legendary",
-       "name": "Legendary 1",
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le1.jpg",
-       "is_lock": false,
-       "type_details": "le1.json"
-    },
-    {
-       "type": "legendary",
-       "name": "Legendary 2",
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2.jpg",
-       "is_lock": false,
-       "type_details": "le2.json"
-    },
-    {
-       "type": "legendary",
-       "name": "Legendary 3",
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le3.png",
-       "is_lock": false,
-       "type_details": "le3.json"
-    },
+    
     {
        "type": "mythic",
        "name": "Mythic",
@@ -48,20 +28,7 @@
        "is_lock": true,
        "type_details": "Complete the 3 Legendary branches to unlock"
     },
-     {
-       "type": "mythic",
-       "name": "Mythic",
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/mythic.jpg",
-       "is_lock": true,
-       "type_details": "Complete the 3 Legendary branches to unlock"
-    },
-     {
-       "type": "mythic",
-       "name": "Mythic",
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/mythic.jpg",
-       "is_lock": true,
-       "type_details": "Complete the 6 Legendary branches to unlock"
-    },
+     
     {
        "type": "discount",
        "name": "Discount",
