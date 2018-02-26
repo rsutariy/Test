@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, Route } from "react-router-dom";
+import { Link, Route,Switch,Redirect  } from "react-router-dom";
 import axiosInstance from "../utils/AxiosInstance";
 import FontAwesome from "react-fontawesome";
 import { Modal, ModalManager, Effect } from "react-dynamic-modal";
@@ -7,6 +7,7 @@ import Prize from '../prize/Listofprizes';
 
 class MyModal extends Component {
   render() {
+    
     const { text, onRequestClose } = this.props;
     return (
       <Modal onRequestClose={onRequestClose} effect={Effect.ScaleUp}>
@@ -20,6 +21,7 @@ class MyModal extends Component {
 
 class Tiles extends Component {
 
+  
   constructor(props) {
     super(props);
 
@@ -55,10 +57,15 @@ class Tiles extends Component {
 
   //TODO: Redirect to Prize Component
   openPrizePage(prizePageLink) {
-      <Route path={`${prizePageLink}`} component={Prize} />
+    <Link to={prizePageLink}>Prize</Link>
+ 
   }
 
   render() {
+
+    
+
+
     let body = null;
     if (this.state.loading) {
       body = <div className="row">Loading...</div>;

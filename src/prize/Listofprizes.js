@@ -32,6 +32,22 @@ class Listofprizes extends Component {
 
     }
 
+    async getPrizes(prizelink) {
+        try {
+            this.setState({ loading: true });
+            let response = await axiosInstance.get(`${prizelink}`);
+            console.log(response);
+            let prizeData = response.data;
+            const total = prizeData.length;
+            this.setState({
+                loading: false,
+                prizes: prizeData
+              
+            });
+        } catch (e) {
+            this.setState({ loading: false });
+        }
+    }
     openModal(text) {
         ModalManager.open(<MyModal text={text} onRequestClose={() => true} />);
     }
@@ -43,25 +59,12 @@ class Listofprizes extends Component {
         });
     };
 
-    async componentWillMount() {
-        await this.getPrizes();
+    async componentDidMount() {
+        const prizelink ="le1.json";
+        console.log(prizelink);
+        await this.getPrizes(prizelink);
     }
 
-    async getPrizes() {
-        try {
-            this.setState({ loading: true });
-            let response = await axiosInstance.get("le1.json");
-            let prizeData = response.data;
-            const limit = 28;
-            const total = prizeData.length;
-            this.setState({
-                loading: false,
-                prizes: prizeData
-            });
-        } catch (e) {
-            this.setState({ loading: false });
-        }
-    }
 
     render() {
         const { currentPage } = this.state;
@@ -71,9 +74,10 @@ class Listofprizes extends Component {
             body = <div className="row">Loading...</div>;
         } else if (this.state.prizes) {
             const length=this.state.prizes.length;
-            const prizeView = this.state.prizes.map(prize => {
-                return (
 
+            const prizeView = this.state.prizes.map(prize => {
+
+                return (
                     <div className="l-wrap">
                         <div class="three-col-grid">
                             <div class="grid-item">
@@ -90,6 +94,8 @@ class Listofprizes extends Component {
                     </div>
                 );
             });
+            
+            
             body = <div className="scrolling-wrapper">{prizeView}
                     <Pagination
                         total={length}
