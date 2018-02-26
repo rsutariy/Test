@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Header from "./Header";
 import Tiles from "./Tiles";
-class User extends Component {
+class Home extends Component {
   render() {
     let body = (
       <div className="home">
@@ -18,4 +18,4 @@ class User extends Component {
   }
 }
 
-export default User;
+export default Home;

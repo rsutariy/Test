@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_ROOT = "https://github.com/rsutariy/Pocket-Gems/master/data/";
+export const API_ROOT = "https://raw.githubusercontent.com/rsutariy/Test/master/data/";
 const instance = axios.create();
 
 // Add a request interceptor

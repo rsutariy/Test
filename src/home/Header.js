@@ -17,7 +17,7 @@ class Header extends Component {
             <button type="button" className="col btn btn-secondary">
               Prizes &and; Ranks
             </button>
-            <button type="button" className="col btn btn-secondary">
+            <button type="button" className="col btn btn-secondary" disabled>
               Rewards
             </button>
             <button type="button" className="col btn btn-secondary">

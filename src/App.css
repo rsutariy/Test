@@ -66,3 +66,21 @@ body {
     transform: rotate(360deg);
   }
 }
+
+
+.l-wrap {
+  max-width: 1000px;
+}
+
+.grid-item {
+  width: calc((100% - 24px * 2) / 10);
+  margin:2% 2% 2% 2%;
+  
+  float: left;
+}
+
+
+h4{
+  text-align: center;
+
+}
