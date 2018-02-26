@@ -1,58 +1,43 @@
 [
     {
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2.jpg",
-       "description": "Prize 1",
-       "quantity": "5"
+        "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2p1.jpeg",
+        "description": "Prize 1",
+        "quantity": "1"
     },
     {
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2.jpg",
-       "description": "Prize 1",
-       "quantity": "5"
+        "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2p2.jpg",
+        "description": "Prize 2",
+        "quantity": "1"
     },
     {
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2.jpg",
-       "description": "Prize 1",
-       "quantity": "5"
+        "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2p3.png",
+        "description": "Prize 3",
+        "quantity": "1"
     },
     {
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2.jpg",
-       "description": "Prize 1",
-       "quantity": "5"
+        "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2p4.jpg",
+        "description": "Prize 4",
+        "quantity": "1"
     },
     {
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2.jpg",
-       "description": "Prize 1",
-       "quantity": "5"
+        "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2p5.jpg",
+        "description": "Prize 5",
+        "quantity": "1"
     },
     {
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2.jpg",
-       "description": "Prize 1",
-       "quantity": "5"
+        "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2p6.jpg",
+        "description": "Prize 6",
+        "quantity": "1"
     },
     {
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2.jpg",
-       "description": "Prize 1",
-       "quantity": "5"
+        "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2p7.jpg",
+        "description": "Prize 7",
+        "quantity": "1"
     },
     {
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2.jpg",
-       "description": "Prize 1",
-       "quantity": "5"
-    },
-    {
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2.jpg",
-       "description": "Prize 1",
-       "quantity": "5"
-    },
-    {
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2.jpg",
-       "description": "Prize 1",
-       "quantity": "5"
-    },
-    {
-       "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2.jpg",
-       "description": "Prize 1",
-       "quantity": "5"
+        "image_url": "https://raw.githubusercontent.com/rsutariy/Test/master/public/images/le2p8.jpg",
+        "description": "Prize 8",
+        "quantity": "1"
     }
 
- ]
+]
