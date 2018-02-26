@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.17.1",
     "bootstrap": "^3.3.7",
+    "history": "^4.7.2",
     "immutable": "^3.8.2",
     "jquery": "^3.2.1",
     "query-string": "^5.0.1",

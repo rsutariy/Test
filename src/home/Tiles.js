@@ -1,13 +1,16 @@
 import React, { Component } from "react";
-import { Link, Router,Route,Switch,Redirect  } from "react-router-dom";
+import {BrowserRouter, Link, Router, Route, Switch, Redirect } from "react-router-dom";
 import axiosInstance from "../utils/AxiosInstance";
 import FontAwesome from "react-fontawesome";
 import { Modal, ModalManager, Effect } from "react-dynamic-modal";
 import Prize from '../prize/Listofprizes';
+import createBrowserHistory from 'history/createBrowserHistory';
+const customHistory = createBrowserHistory();
+
 
 class MyModal extends Component {
   render() {
-    
+
     const { text, onRequestClose } = this.props;
     return (
       <Modal onRequestClose={onRequestClose} effect={Effect.ScaleUp}>
@@ -21,7 +24,7 @@ class MyModal extends Component {
 
 class Tiles extends Component {
 
-  
+
   constructor(props) {
     super(props);
 
@@ -55,20 +58,17 @@ class Tiles extends Component {
     ModalManager.open(<MyModal text={text} onRequestClose={() => true} />);
   }
 
-  //TODO: Redirect to Prize Component
   openPrizePage(prizePageLink) {
-    const link=prizePageLink;
-    <Router>
-    <Route path={`/:link`} component={Prize} />
+    <Router history={customHistory}>
+    <Switch>
+      
+      <Route path= "/prizes" component={Prize}/>
+      
+    </Switch>
   </Router>
- 
   }
 
   render() {
-
-    
-
-
     let body = null;
     if (this.state.loading) {
       body = <div className="row">Loading...</div>;
@@ -110,9 +110,9 @@ class Tiles extends Component {
         );
       });
       body = <div className="scrolling-wrapper">
-      <h4> Fall Season </h4>
-      {tilesView}
-      
+        <h4> Fall Season </h4>
+        {tilesView}
+
       </div>;
     }
     return body;

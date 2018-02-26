@@ -25,6 +25,7 @@ class Listofprizes extends Component {
 
         this.state = {
             currentPage: 1,
+            prizePageLink:null,
             prizeList: []
         };
 

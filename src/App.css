@@ -70,6 +70,7 @@ body {
 
 .l-wrap {
   max-width: 1000px;
+  margin: 13%;
 }
 
 .grid-item {
