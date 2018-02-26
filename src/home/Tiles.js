@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, Route,Switch,Redirect  } from "react-router-dom";
+import { Link, Router,Route,Switch,Redirect  } from "react-router-dom";
 import axiosInstance from "../utils/AxiosInstance";
 import FontAwesome from "react-fontawesome";
 import { Modal, ModalManager, Effect } from "react-dynamic-modal";
@@ -57,7 +57,10 @@ class Tiles extends Component {
 
   //TODO: Redirect to Prize Component
   openPrizePage(prizePageLink) {
-    <Link to={prizePageLink}>Prize</Link>
+    const link=prizePageLink;
+    <Router>
+    <Route path={`/:link`} component={Prize} />
+  </Router>
  
   }
 
