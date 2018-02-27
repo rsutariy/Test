@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import {BrowserRouter, Link, Router, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter, Link, Router, Route, Switch, Redirect,HashRouter} from "react-router-dom";
+import { render } from 'react-dom'
 import axiosInstance from "../utils/AxiosInstance";
 import FontAwesome from "react-fontawesome";
 import { Modal, ModalManager, Effect } from "react-dynamic-modal";
 import Prize from '../prize/Listofprizes';
-import createBrowserHistory from 'history/createBrowserHistory';
-const customHistory = createBrowserHistory();
+import {push} from 'react-router-redux';
+import Home from "./Home";
 
 
 class MyModal extends Component {
@@ -58,14 +59,14 @@ class Tiles extends Component {
     ModalManager.open(<MyModal text={text} onRequestClose={() => true} />);
   }
 
-  openPrizePage(prizePageLink) {
-    <Router history={customHistory}>
-    <Switch>
-      
-      <Route path= "/prizes" component={Prize}/>
-      
-    </Switch>
-  </Router>
+  openPrizePage(name,prizePageLink) {
+    
+    render((
+      <BrowserRouter>
+      </BrowserRouter>
+    ), 
+    document.getElementById('root'));
+    window.location = `/prizes/name=${name}?prizePageLink=${prizePageLink}`;
   }
 
   render() {
@@ -83,38 +84,40 @@ class Tiles extends Component {
             }
 
 
-            onClick={tile.type === "legendary" ? () => this.openPrizePage(tile.type_details) : ""}>
+            onClick={tile.type === "legendary" ? () => this.openPrizePage(tile.name,tile.type_details) : ""}>
             {tile.type === "discount" && (
-              <span className="notify-badge">{tile.type_details}</span>
-            )}
-            <img
-              className="card-img-top"
-              src={tile.image_url}
-              alt={tile.name}
-            />
-            <div className="card-block">
-              <h4 className="card-title ">{tile.name}</h4>
-              {tile.type === "mythic" && (
-                <a
-                  className="btn btn-primary"
-                  onClick={() => this.openModal(tile.type_details)}
-                >
-                  <FontAwesome name="lock" /> Info
+          <span className="notify-badge">{tile.type_details}</span>
+        )
+      }
+
+        <img
+          className="card-img-top"
+          src={tile.image_url}
+          alt={tile.name}
+        />
+          <div className="card-block">
+            <h4 className="card-title ">{tile.name}</h4>
+            {tile.type === "mythic" && (
+              <a
+                className="btn btn-primary"
+                onClick={() => this.openModal(tile.type_details)}
+              >
+                <FontAwesome name="lock" /> Info
                 </a>
-              )}
-              {/* <a href="#" className="btn btn-primary">
+            )}
+            {/* <a href="#" className="btn btn-primary">
                 <FontAwesome name="lock" /> Info
               </a> */}
-            </div>
           </div>
+          </div >
         );
-      });
-      body = <div className="scrolling-wrapper">
-        <h4> Fall Season </h4>
-        {tilesView}
+    });
+    body = <div className="scrolling-wrapper">
+      <h4> Fall Season </h4>
+      {tilesView}
 
-      </div>;
-    }
+    </div>;
+  }
     return body;
   }
 }
