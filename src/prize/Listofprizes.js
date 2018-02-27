@@ -29,7 +29,8 @@ class Listofprizes extends Component {
 
         this.state = {
             prizelink:null,
-            prizeList: []
+            prizeList: [],
+            currentpage:1
         };
         this.getPrizes = this.getPrizes.bind(this);
 
@@ -72,7 +73,7 @@ class Listofprizes extends Component {
 
 
     handlePageChange() {
-      
+        
     };
 
 
@@ -88,7 +89,7 @@ class Listofprizes extends Component {
 
     
     render() {
-        var { currentpage } = this.state;
+      
         let body = null;
        
 
@@ -98,15 +99,12 @@ class Listofprizes extends Component {
 
             const length=this.state.prizes.length;
             const per_page =28;
-            const pages=(Math.ceil(this.state.prizes.length)/per_page)+1;
-            currentpage=1;
-            const start_offset =(currentpage - 1) * per_page;
-            
+            const pages=(Math.ceil(this.state.prizes.length)/per_page);
             let start_count=0;
 
             const prizeView = this.state.prizes.map((prize,index) => {
-            
-
+               
+                const start_offset =(this.state.currentpage - 1) * per_page;
                 if(index >=start_offset && start_count<per_page)
                 {
                     const length=this.state.prizes.length;
@@ -128,8 +126,8 @@ class Listofprizes extends Component {
                         </div>
                     
                     );
-                   
                 }
+                
             });
             
        
@@ -138,13 +136,12 @@ class Listofprizes extends Component {
             </h2>
             
             {prizeView}
-
-
-                    <Pagination 
+                    <Pagination className="pagination"
+                    next 
+                    prev
                     items={pages} 
-                    
-                    >
-                        
+                    currentpage={this.state.currentpage}
+                    onClick={this.handlePageChange} >
                     </Pagination>
             </div>;
         }
